@@ -1,0 +1,18 @@
+1. VPC all AZ in the Region - Subnet only one AZ in the Region
+2. MQ message broker for from on premises to cloud
+3. Kinesis big data live streaming
+4. EMR (Elastic MapReduce) analyze big data Hadoop, Spark 
+5. Shield advanced: EC2, ELB, Cloudfront, Global accelerator, Route 53
+6. Security Groups: on EC2 instances - firewall for traffic allowed
+7. Athena: serverless S3
+8. Redshift: OLAP + BI
+9. VPN composed of Site-to-site VPN + Client VPN
+10. ECS launch Docker, ECR store docker (registry)
+11. Compute Optimizer: recommendations for EC2, EC2 auto scaling, EBS, Lambda
+12. Only S3 and DynamoDB support VPC Endpoint Gateway
+13. VPC Peering: 2 VPCs - Transit Gateway: thousands of VPCs
+14. Block level storage: EBS, Instance Store
+15. Support high availability: EFS - DynamoDB
+16. Data encryption automatic: Storage Gateway - S3 Glacier
+17. Encryption = KMS
+18. Reserved for EC2 and RDS
